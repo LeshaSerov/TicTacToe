@@ -40,7 +40,7 @@ public class Field
             if (c == ' ')
                 emptyBoxs++;
         }
-        return emptyBoxs == 0;
+        return emptyBoxs != 0;
     }
 
     public bool CheckWin()
