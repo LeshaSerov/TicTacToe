@@ -41,7 +41,7 @@
 
                 Console.WriteLine("");
             }
-            if (field.ItHaveEmptyBox())
+            if (field.ItHaveEmptyBox() || field.CheckWin())
                 Console.WriteLine("Победили " + (!moveX ? "крестики" : "нолики") + '!');
             else
                 Console.WriteLine("Ничья");
